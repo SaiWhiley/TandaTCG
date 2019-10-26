@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-type Props = {
-}
+// type Props = {
+// }
 
-export default (props: Props) => (
+export default (props) => (
     <div className="main-wrapper bg-primary-color">
       <div className="left-side">
         <Feed />

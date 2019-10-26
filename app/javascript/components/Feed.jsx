@@ -1,9 +1,9 @@
 import React from 'react';
-import FeedItem, type { Props as FeedItemProps } from './FeedItem';
+import FeedItem from './FeedItem';
 
-type Props = {
-  feedItems: Array<FeedItemProps>
-}
+// type Props = {
+//   feedItems: Array<FeedItemProps>
+// }
 
 function Feed(props) {
   return (

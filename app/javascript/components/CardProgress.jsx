@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-type Props = {
-  percentComplete: number,
-  multiplier: number,
-}
+// type Props = {
+//   percentComplete: number,
+//   multiplier: number,
+// }
 
-export default (props: Props) => (
+export default (props) => (
     <div className="card-progress-wrapper">
       <div className="card-progress-bar-wrapper">
         <div className="filler" style={{ width: `${props.percentage}%` }} />
